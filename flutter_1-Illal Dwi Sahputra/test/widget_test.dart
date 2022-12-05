@@ -31,14 +31,14 @@ import 'package:flutter_pertama/main.dart';
 void main() {
     print('VARIAN');
     //var
-  var mahasiswa = "Wahyu Kurnia"; 
-  var umur = "20";
+  var mahasiswa = "Illal Dwi Sahputra"; 
+  var umur = "22";
 
   print(mahasiswa + " Usia = " + umur.toString());
 
   //string
     print('STRING');
-  String mahasiswaString = "WHY";
+  String mahasiswaString = "Ilal";
 
   print(mahasiswaString);
 
@@ -50,7 +50,7 @@ void main() {
 
   //double
     print('DOUBLE');
-  double ipk = 3.9;
+  double ipk = 3.5;
 
   print(ipk);
 
@@ -69,7 +69,7 @@ void main() {
 
   //Map
     print('MAP');
-  Map kelas = {"Nama": "Wahyu Kurnia", "Kelas": "SI E-Bisnis 5"};
+  Map kelas = {"Nama": "Illal Dwi Sahputra", "Kelas": "SI E-Enterprise 5"};
 
   print(kelas);
   print(kelas['Nama']);
@@ -77,8 +77,8 @@ void main() {
   //Map
     print('MAP STRING DYNAMIC');
   Map<String, dynamic> kelas2 = {
-    "Nama": "Wahyu Kurnia",
-    "Kelas": "SI E-Bisnis 5",
+    "Nama": "Illal Dwi Sahputra",
+    "Kelas": "SI Enterprise 5",
   };
 
   print(kelas2);
@@ -134,7 +134,7 @@ print('OPERATOR');
 //Const Final
   //Const
   print('CONST');
-  const String mahasiswafk = "Wahyu Kurnia";
+  const String mahasiswafk = "Illal Dwi Sahputra";
 
   print(mahasiswafk);
 
@@ -142,7 +142,7 @@ print('OPERATOR');
   print('FINAL');
   final String mahasiswafk1;
 
-  mahasiswafk1 = "Wahyu Kurnia";
+  mahasiswafk1 = "Illal Dwi Sahputra";
 
   print(mahasiswafk1);
 
